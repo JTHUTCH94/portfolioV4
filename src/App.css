@@ -1,0 +1,91 @@
+html{
+  background: #252422;
+  color: white;
+  border: 3px dashed #EB5E28;
+  padding: 10px;
+}
+
+p{
+  color: #EB5E28;
+}
+
+a{
+  color: #CCC5B9;
+}
+
+.dashboard{
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'VT323', monospace;
+  font-size: 25px;
+}
+
+.computer{
+  display: block;
+  margin: auto;
+  padding: 5px;
+}
+
+.profile-pic{
+  border-radius: 100px;
+  border: 0.5px solid #EB5E28;
+}
+
+.skills{
+  display: block;
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+}
+
+.skills li{
+  display: inline-flex;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  color: #FFFCF2;
+  border: 1px solid #EB5E28;
+  border-radius: 100px;
+  padding: 20px;
+}
+
+.skills li img{
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: auto;
+}
+
+.project-list{
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  font-family: 'VT323', monospace;
+  font-size: 20px;
+}
+
+.project-list ul{
+  margin-left: -40px;
+}
+
+.project{
+  display: inline-block;
+  padding: 25px;
+  width: 80%;
+  margin: auto;
+  border: 1px solid white;
+  border-radius: 25px;
+  margin-bottom: 50px;
+}
+
+.divider{
+  width: 90%;
+  background: #FFFCF2;
+  height: 1px;
+  margin: auto;
+  margin-top: 100px;
+}
