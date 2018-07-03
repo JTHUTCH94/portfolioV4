@@ -14,8 +14,8 @@ a{
 }
 
 .dashboard{
+  display: block;
   text-align: center;
-  margin-top: 50px;
   font-family: 'VT323', monospace;
   font-size: 25px;
 }
@@ -23,20 +23,29 @@ a{
 .computer{
   display: block;
   margin: auto;
-  padding: 5px;
 }
 
 .profile-pic{
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 15px;
   border-radius: 100px;
   border: 0.5px solid #EB5E28;
 }
 
-.skills{
-  display: block;
-  margin: auto;
-  width: 90%;
+.aboutMe{
+  display: inline-block;
+  width: 50%;
   text-align: center;
-  margin-top: 50px;
+  font-family: 'VT323', monospace;
+  font-size: 22px;
+}
+
+.skills{
+  display: inline-block;
+  width: 50%;
+  text-align: center;
   font-family: 'VT323', monospace;
   font-size: 20px;
 }
@@ -62,8 +71,7 @@ a{
   display: block;
   margin: auto;
   text-align: center;
-  margin-top: 50px;
-  margin-bottom: 25px;
+  margin-top: 60px;
   font-family: 'VT323', monospace;
   font-size: 20px;
 }
@@ -82,10 +90,21 @@ a{
   margin-bottom: 50px;
 }
 
+.contact{
+  display: block;
+  position: absolute;
+  top: 5px;
+  right: 40px;
+  font-size: 18px;
+  width: 20%;
+}
+
 .divider{
+  display: block;
   width: 90%;
   background: #FFFCF2;
   height: 1px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
