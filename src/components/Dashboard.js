@@ -9,7 +9,7 @@ export default function Dashboard(props) {
             <h2>Junior Web Developer</h2>
             <p>Tech Enthusiast, Avid Gamer, Big Time Nerd</p>
             <img
-                className="computer" src="https://s8.postimg.cc/xesezd1c5/Computer.png" />
+                className="computer" src="https://s8.postimg.cc/xesezd1c5/Computer.png" alt="Computer Pixel Image"/>
             <Contact />
         </div>
     )
