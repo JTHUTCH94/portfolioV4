@@ -1,10 +1,6 @@
 import React, { Component } from 'react';
-import Dashboard from './components/Dashboard';
-//import Skills from './components/Skills';
-//import Projects from './components/Projects';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Favicon from 'react-favicon';
-import './App.css';
+//import './App.css';
 import Main from './components/Main';
 import Header from './components/Header';
 
