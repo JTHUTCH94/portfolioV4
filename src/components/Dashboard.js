@@ -8,10 +8,18 @@ import Grid from '@material-ui/core/Grid';
 import Button from '@material-ui/core/Button';
 
 const styles ={
-    dashboard: {
-        width: '50%',
+    root: {
+        marginTop: 100,
+        marginBottom: 20,
         textAlign: 'center',
-        marginTop: 150,
+        padding: 25,
+        width: '50%',
+        margin: 'auto',
+        backgroundColor: '#575A5E'
+    },
+    dashboard: {
+        width: '75%',
+        textAlign: 'center',
         margin: 'auto',
         padding: 25,
     },
@@ -35,6 +43,7 @@ const styles ={
 function Dashboard(props) {
     const { classes } = props;
     return (
+        <Paper className={classes.root}>
         <Paper className={classes.dashboard}>
             <Typography className={classes.title}>Joshua Hutchinson</Typography>
             <Typography className={classes.text}>Junior Web Developer</Typography>
@@ -57,6 +66,7 @@ function Dashboard(props) {
             </Button>
         </Grid>
     </Grid>
+    </Paper>
     </Paper>
     )
 }
