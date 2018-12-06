@@ -109,7 +109,7 @@ function Projects(props) {
                 <Card className={classes.card}>
                     <CardContent>
                         <Button size="large" variant="outlined" className={classes.button}>
-                            <p className={classes.title} >Character Builder</p></Button>
+                            <p className={classes.title}> Character Builder</p></Button>
                             <h1>Currently Under Construction</h1>
                         <Typography className={classes.text}>The Character Builder is a full stack web application designed to allow users to choose from a preset list of options in order to create custom characters. The application is built using React.js, Redux, Express, and Node.</Typography>
                         <CardMedia
