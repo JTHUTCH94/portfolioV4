@@ -9,10 +9,18 @@ const styles = {
     root: {
         flexGrow: 1,
     },
+    backing:{
+        marginTop: 60,
+        marginBottom: 20,
+        textAlign: 'center',
+        padding: 25,
+        width: '60%',
+        margin: 'auto',
+        backgroundColor: '#575A5E'
+    },
     paper: {
         width: '75%',
         textAlign: 'center',
-        marginTop: 100,
         margin: 'auto',
         padding: 25,
     },
@@ -21,7 +29,6 @@ const styles = {
         fontSize: 18
     },
     image: {
-        marginTop: 20,
         marginBottom: 10,
         margin: 'auto',
         padding: 0,
@@ -32,6 +39,7 @@ function AboutMe(props) {
     const { classes } = props;
     return (
         <div className={classes.root}>
+        <Paper className={classes.backing}>
         <Grid container spacing={24}>
         <Grid item xs>
         <Paper className={classes.paper}>
@@ -41,6 +49,7 @@ function AboutMe(props) {
         </Paper>
         </Grid>
         </Grid>
+        </Paper>
         </div>
     )
 }
