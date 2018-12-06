@@ -109,7 +109,8 @@ function Projects(props) {
                 <Card className={classes.card}>
                     <CardContent>
                         <Button size="large" variant="outlined" className={classes.button}>
-                            <a className={classes.title} href="https://character-builder.netlify.com/">Character Builder</a></Button>
+                            <p className={classes.title}> Character Builder</p></Button>
+                            <h1>Currently Under Construction</h1>
                         <Typography className={classes.text}>The Character Builder is a full stack web application designed to allow users to choose from a preset list of options in order to create custom characters. The application is built using React.js, Redux, Express, and Node.</Typography>
                         <CardMedia
                             className={classes.media}
